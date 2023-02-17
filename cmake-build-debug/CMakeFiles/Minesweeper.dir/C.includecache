@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/Minesweeper/game.c
+game.h
+/Users/apple/Desktop/Minesweeper/game.h
+
+/Users/apple/Desktop/Minesweeper/game.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
